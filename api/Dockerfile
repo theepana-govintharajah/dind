@@ -12,4 +12,6 @@ CMD ["yarn", "start"]
 
 
 
-# sudo docker run -it --rm node /bin/bash -c 'node --version'
+# In terminal run the following commands
+# sudo docker build -t image2:latest .
+# sudo docker run -p 3000:3000 image2
